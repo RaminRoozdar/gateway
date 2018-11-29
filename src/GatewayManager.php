@@ -40,7 +40,7 @@ class GatewayManager extends Manager implements Contracts\Factory {
     const ZARINPAL = 'ZARINPAL';
     const NEXTPAY = 'NEXTPAY';
     const JIBIT = 'JIBIT';
-
+    const SABAPAY = 'SABAPAY';
     /**
      * Get all of the available "drivers".
      *
@@ -61,6 +61,7 @@ class GatewayManager extends Manager implements Contracts\Factory {
             self::ZARINPAL,
             self::NEXTPAY,
             self::JIBIT,
+            self::SABAPAY
         ];
     }
 
